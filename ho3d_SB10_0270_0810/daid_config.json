@@ -1,0 +1,37 @@
+{
+  "task": "ho3d_SB10_0270_0810",
+  "status": "ready",
+  "dataset": "HO3D_v3",
+  "sequence": "SB10",
+  "source_frame_start": 270,
+  "source_frame_end": 810,
+  "video_path": "ho3d_SB10_0270_0810.mp4",
+  "frame_n": 0,
+  "source_reference_frame": 270,
+  "object": "bleach_cleanser",
+  "object_id": "ho3d_SB10_0270_0810_bleach_cleanser",
+  "anchor_hand": "right",
+  "grasp_frame": null,
+  "release_frame": null,
+  "sam3_object_points": "432.0,284.9",
+  "sam3_object_point_labels": "1",
+  "video_frames": 541,
+  "video_fps": 30.0,
+  "video_width": 640,
+  "video_height": 480,
+  "objects": [
+    {
+      "object_name": "bleach_cleanser",
+      "object_id": "ho3d_SB10_0270_0810_bleach_cleanser",
+      "bbox": null,
+      "bbox_center": null
+    }
+  ],
+  "annotation_source": "ho3d_initial_prompt",
+  "ho3d_data_completeness": "rgb_only_smoke_test",
+  "ho3d_frame_map": "ho3d_frame_map.json",
+  "ho3d_intrinsics_usage": "source_meta_reference_only",
+  "source_frames_dir": "source_frames",
+  "source_rgb_dir": "source_rgb",
+  "video_encoding": "libx264_yuv420p_crf20"
+}
