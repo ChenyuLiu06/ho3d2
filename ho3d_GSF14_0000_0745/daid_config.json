@@ -1,20 +1,20 @@
 {
   "task": "ho3d_GSF14_0000_0745",
-  "status": "ready",
+  "status": "pending",
   "dataset": "HO3D_v3",
   "sequence": "GSF14",
   "source_frame_start": 0,
   "source_frame_end": 745,
   "video_path": "ho3d_GSF14_0000_0745.mp4",
-  "frame_n": 300,
-  "source_reference_frame": 300,
+  "frame_n": null,
+  "source_reference_frame": null,
   "object": "scissors",
-  "object_id": "ho3d_GSF14_0000_0745_scissors",
+  "object_id": null,
   "anchor_hand": "right",
   "grasp_frame": null,
   "release_frame": null,
-  "sam3_object_points": "430,375;475,420;500,455",
-  "sam3_object_point_labels": "1;1;1",
+  "sam3_object_points": "",
+  "sam3_object_point_labels": "",
   "video_frames": 746,
   "video_fps": 30.0,
   "video_width": 640,
@@ -22,16 +22,16 @@
   "objects": [
     {
       "object_name": "scissors",
-      "object_id": "ho3d_GSF14_0000_0745_scissors",
+      "object_id": null,
       "bbox": null,
       "bbox_center": null
     }
   ],
-  "annotation_source": "ho3d_initial_prompt",
-  "ho3d_data_completeness": "rgb_only_smoke_test",
+  "annotation_source": null,
+  "ho3d_data_completeness": null,
   "ho3d_frame_map": "ho3d_frame_map.json",
-  "ho3d_intrinsics_usage": "source_meta_reference_only",
+  "ho3d_intrinsics_usage": null,
   "source_frames_dir": "source_frames",
   "source_rgb_dir": "source_rgb",
-  "video_encoding": "libx264_yuv420p_crf20"
+  "video_encoding": null
 }
