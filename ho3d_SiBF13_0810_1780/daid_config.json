@@ -1,20 +1,20 @@
 {
   "task": "ho3d_SiBF13_0810_1780",
-  "status": "pending",
+  "status": "approved",
   "dataset": "HO3D_v3",
   "sequence": "SiBF13",
   "source_frame_start": 810,
   "source_frame_end": 1780,
   "video_path": "ho3d_SiBF13_0810_1780.mp4",
-  "frame_n": null,
-  "source_reference_frame": null,
+  "frame_n": 0,
+  "source_reference_frame": 810,
   "object": "banana",
-  "object_id": null,
+  "object_id": "banana1",
   "anchor_hand": "right",
-  "grasp_frame": null,
-  "release_frame": null,
-  "sam3_object_points": "",
-  "sam3_object_point_labels": "",
+  "grasp_frame": 46,
+  "release_frame": 953,
+  "sam3_object_points": "214,442;236,423;249,448;282,412;282,446;313,408;322,448;352,406;351,441;331,427;383,399;377,438;398,414;421,405",
+  "sam3_object_point_labels": "1;1;1;1;1;1;1;1;1;1;1;1;1;1",
   "video_frames": 971,
   "video_fps": 30.0,
   "video_width": 640,
@@ -22,7 +22,7 @@
   "objects": [
     {
       "object_name": "banana",
-      "object_id": null,
+      "object_id": "banana1",
       "bbox": null,
       "bbox_center": null
     }

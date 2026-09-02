@@ -1,20 +1,20 @@
 {
   "task": "ho3d_SB11_0270_0810",
-  "status": "pending",
+  "status": "approved",
   "dataset": "HO3D_v3",
   "sequence": "SB11",
   "source_frame_start": 270,
   "source_frame_end": 810,
   "video_path": "ho3d_SB11_0270_0810.mp4",
-  "frame_n": null,
-  "source_reference_frame": null,
+  "frame_n": 0,
+  "source_reference_frame": 270,
   "object": "bleach_cleanser",
-  "object_id": null,
+  "object_id": "bc1",
   "anchor_hand": "right",
-  "grasp_frame": null,
-  "release_frame": null,
-  "sam3_object_points": "",
-  "sam3_object_point_labels": "",
+  "grasp_frame": 18,
+  "release_frame": 526,
+  "sam3_object_points": "222,101;209,144;241,130;210,127;207,199;216,165;259,201;205,259;216,316;233,277;263,302;273,282;252,234;227,223;249,163;189,168;185,202;189,263;191,300;210,335;261,339;298,283;282,234;277,198",
+  "sam3_object_point_labels": "1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;0;0;0;0;0;0;0;0",
   "video_frames": 541,
   "video_fps": 30.0,
   "video_width": 640,
@@ -22,7 +22,7 @@
   "objects": [
     {
       "object_name": "bleach_cleanser",
-      "object_id": null,
+      "object_id": "bc1",
       "bbox": null,
       "bbox_center": null
     }

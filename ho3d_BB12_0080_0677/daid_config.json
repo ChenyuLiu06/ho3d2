@@ -1,20 +1,20 @@
 {
   "task": "ho3d_BB12_0080_0677",
-  "status": "pending",
+  "status": "approved",
   "dataset": "HO3D_v3",
   "sequence": "BB12",
   "source_frame_start": 80,
   "source_frame_end": 677,
   "video_path": "ho3d_BB12_0080_0677.mp4",
-  "frame_n": null,
-  "source_reference_frame": null,
+  "frame_n": 113,
+  "source_reference_frame": 193,
   "object": "banana",
-  "object_id": null,
+  "object_id": "banana1",
   "anchor_hand": "right",
-  "grasp_frame": null,
-  "release_frame": null,
-  "sam3_object_points": "",
-  "sam3_object_point_labels": "",
+  "grasp_frame": 31,
+  "release_frame": 592,
+  "sam3_object_points": "221,341;241,316;250,350;277,322;288,350;316,323;336,352;375,334;390,361;429,354;452,364",
+  "sam3_object_point_labels": "1;1;1;1;1;1;1;1;1;1;1",
   "video_frames": 598,
   "video_fps": 30.0,
   "video_width": 640,
@@ -22,7 +22,7 @@
   "objects": [
     {
       "object_name": "banana",
-      "object_id": null,
+      "object_id": "banana1",
       "bbox": null,
       "bbox_center": null
     }

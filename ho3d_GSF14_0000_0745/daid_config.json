@@ -1,20 +1,20 @@
 {
   "task": "ho3d_GSF14_0000_0745",
-  "status": "pending",
+  "status": "approved",
   "dataset": "HO3D_v3",
   "sequence": "GSF14",
   "source_frame_start": 0,
   "source_frame_end": 745,
   "video_path": "ho3d_GSF14_0000_0745.mp4",
-  "frame_n": null,
-  "source_reference_frame": null,
+  "frame_n": 224,
+  "source_reference_frame": 224,
   "object": "scissors",
-  "object_id": null,
+  "object_id": "scissors1",
   "anchor_hand": "right",
-  "grasp_frame": null,
-  "release_frame": null,
-  "sam3_object_points": "",
-  "sam3_object_point_labels": "",
+  "grasp_frame": 32,
+  "release_frame": 725,
+  "sam3_object_points": "475,210;471,229;466,277;461,308;457,336;433,364;396,379;410,414;445,387;470,364;493,414;467,437;413,391;472,387;470,418;504,398;497,363;406,430",
+  "sam3_object_point_labels": "1;1;1;1;1;1;1;1;1;1;1;1;0;0;0;0;0;0",
   "video_frames": 746,
   "video_fps": 30.0,
   "video_width": 640,
@@ -22,7 +22,7 @@
   "objects": [
     {
       "object_name": "scissors",
-      "object_id": null,
+      "object_id": "scissors1",
       "bbox": null,
       "bbox_center": null
     }
